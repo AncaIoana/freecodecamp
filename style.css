@@ -1,0 +1,156 @@
+body {
+  background: #F8F0E3;
+  font-family: 'Hind', sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+#header {
+  /*height: 200px;*/
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+#header-img {
+ height: 200px;
+ width: 200px;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  align-self: flex-end;
+}
+  
+#break {
+  flex-basis: 100%;
+  height: 0;
+}
+#nav-bar {
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #F8F0E3;
+  overflow: hidden;
+}
+#nav-bar a {
+    float: center;
+    color:  black;
+  }
+
+#nav-bar a:hover {
+  font-size: 23px;
+  background-color: #dbb95a;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.nav-link {
+  font-size: 20px;
+}
+#main {
+  display: flex; 
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+#section_1 {
+  display: flex;
+  flex-direction: column;
+}
+#section_2 {
+  display: flex;
+  flex-direction: column;
+}
+#section_3_text {
+  display: flex;
+  flex-direction: column;
+}
+#section_4 {
+  display: flex;
+  flex-direction: column;
+}
+#video {
+  align-self: center;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+input[type="text"] {
+  width: 50%;
+}
+input[type="email"]{
+  width: 50%;
+}
+input[type="submit"] {
+  background-color: #dbb95a;
+  padding: 5px;
+  font-size: 20px;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+}
+#form-name {
+  display: flex;
+  justify-content: space-evenly;
+}
+#form-email {
+  display: flex;
+  justify-content: space-evenly;
+}
+#form-submit {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  #header {
+    margin-top: 100px;
+  } 
+ #header-img {
+  align-self: center;
+  margin: auto; 
+  }
+  #title {
+    display: flex;
+    width: 75%;
+    align-self: center;
+  }
+  #nav-bar {
+    flex-direction: column;
+    width: 100%;
+    position: fixed;   
+  }
+  #nav-bar a {
+    width: 100%;
+    display: flex;
+
+  }
+  #nav-bar a:hover {
+    float: left;
+    color: black;
+    font-size: 17px;
+  }
+.nav-link {
+  font-size: 17px;
+  }
+  #section_1 {
+    width: 75%;
+  } 
+    #section_2 {
+    width: 75%;
+  } 
+    #section_3 {
+    width: 75%;
+  } 
+    #section_4 {
+    width: 75%;
+  } 
+}
