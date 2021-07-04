@@ -1,0 +1,58 @@
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+</head>
+  
+<body>
+  <header id="header">
+    <img id="header-img" src="https://res.cloudinary.com/prayera/image/upload/v1624041276/My%20folder/Screenshot_2021-06-18_at_19.33.29_pxlgve.png">
+  <div id="title">
+    <h1> We're here to give you a head start in your career</h1>
+  </div>
+  <div id="break"></div>
+  <nav id="nav-bar">
+    <a href="#section_1" class="nav-link"> Why</a>
+    <a href="#section_2" class="nav-link">  Who</a>
+    <a href="#section_3" class="nav-link"> How</a>
+    <a href="#section_4" class="nav-link"> Ready?</a>
+  </nav>
+</header>
+  
+  <div id="main">
+    <div id="section_1"> 
+      <h3> Why do you need professional help writing your resume or cover letter? </h3>
+      <p>If writing a resume or cover letter feels daunting, and you are struggling with the format, content or both, our team can help put your experience on the page, in a way that impresses employers and attracts recruiters. We works in close collaboration with you to make sure the final result reflects who you are as a person as well as a professional. </p>
+    </div>
+    
+    <div id="section_2"> 
+      <h3>Who will help you with your resume?</h3>
+      <p> We are a team of 10, each with more than 10 years experience in recruiting and career services. We've been successfully helping people take the next step in their career for 5 years, and have worked with anyone from recent graduates looking for their first job or internship, to seasoned professioanls ready for a new challenge. </p>
+    </div>
+    
+    <div id="section_3"> 
+       <iframe id="video" width=auto height=auto src="https://www.youtube.com/embed/3iwCzT2P7vw" title="How to write a resume" allowfullscreen> </iframe>
+      <div id="section_3_text">
+        <h3>How we structure our approach </h3>
+        <p> First we arrange a meeting with you to better understand your needs, and discuss what package best fits your circumstances. Next we collect all the information we need, and put together a draft to discuss with you. Once we gett your feedback, we work on the final version, and book another meeting to talk you through the result. </p>
+      </div>
+    </div>
+    
+    <div id="section_4"> 
+      <h3>Are you ready?</h3>
+      <p> If you think you could benefit from our expertise, then give us your name and email address, and one of our advisors will get in touch to arrange an introductory online meeting to discuss your circumstances and decide together what service best fits your goals. </p>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <div id=form-name>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="enter your first and last name">
+        </div>
+        <div id="form-email">
+        <label for="email"> Email:</label>
+        <input type="email" id="email" name="email" placeholder="enter you email address">
+        </div>
+        <div id="form-submit">
+        <input type="submit" value="submit" id="submit">
+        </div>
+      </form>
+    </div>
+    
+  </div>  
+</body>
