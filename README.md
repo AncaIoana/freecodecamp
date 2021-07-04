@@ -1,2 +1,2 @@
-# resumaniac_landing_page
+# freecodecamp_landing_page
 Product landing page (freecodecamp)
